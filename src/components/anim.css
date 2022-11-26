@@ -1,0 +1,21 @@
+.animateimg {
+    background-image: url(../images/sustainability-dark-bg.png);
+    animation: zoom 20s infinite;
+    -webkit-animation: zoom 20s infinite;
+    background-position: center center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    mix-blend-mode: overlay;
+  }
+  
+  @keyframes zoom {
+    0% {
+      background-size: 125%;
+    }
+    50% {
+      background-size: 150%;
+    }
+    100% {
+      background-size: 125%;
+    }
+  }
