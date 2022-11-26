@@ -1,15 +1,14 @@
 import React from 'react'
-import Heroimg from "../images/sustainability-dark-bg.png"
 import "./anim.css"
 
-// Change Code >>> bg-gradient-to-b from-cyan-500 to-blue-800 h-[460px] w-full bg-cover bg-center relative
+
 function Hero() {
     return (
         <div className='max-w-[1640px] mx-auto '>
             <div className='bg-gradient-to-b from-cyan-500 to-blue-800 h-[460px] w-full bg-cover bg-center relative'>
                 
                 <div className='flex animateimg'>
-                    <img className=' w-full h-[450px] object-cover mix-blend-overlay' src={Heroimg} alt="" />
+                    <img className='w-full h-[460px] object-cover mix-blend-overlay' alt="" />
                 </div>
                 
                 <div className='absolute top-40 text-center w-[100%]'>
