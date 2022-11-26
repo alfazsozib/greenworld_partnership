@@ -7,8 +7,9 @@ function Hero() {
     return (
         <div className='max-w-[1640px] mx-auto '>
             <div className='bg-gradient-to-b from-cyan-500 to-blue-800 h-[460px] w-full bg-cover bg-center relative'>
+                
                 <div className='flex animateimg'>
-                    <img className='w-full h-[450px] object-cover mix-blend-overlay' src={Heroimg} alt="" />
+                    <img className=' w-full h-[450px] object-cover mix-blend-overlay' src={Heroimg} alt="" />
                 </div>
                 
                 <div className='absolute top-40 text-center w-[100%]'>
