@@ -6,6 +6,7 @@ import "./anim.css"
 function Hero() {
     return (
         <div className='max-w-[1640px] mx-auto '>
+            <h1>Hello</h1>
             <div className='bg-gradient-to-b from-cyan-500 to-blue-800 h-[460px] w-full bg-cover bg-center relative'>
                 <div className='animateimg flex'></div>
                 <div className='flex animateim'>
